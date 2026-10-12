@@ -1,0 +1,192 @@
+{
+  "nvda": {
+    "symbol": "NVDA",
+    "fullYear": {
+      "dailyStd": 0.03282066688675418,
+      "monthlyVol": 0.15040319036748168,
+      "annualizedVol": 0.5210119346738644,
+      "tradingDays": 250
+    },
+    "byMonth": [
+      {
+        "month": "2024-01",
+        "dailyStd": 0.01941729627884664,
+        "monthlyVol": 0.08898122998919909,
+        "annualizedVol": 0.3082400225225286,
+        "tradingDays": 20
+      },
+      {
+        "month": "2024-02",
+        "dailyStd": 0.041788853902385445,
+        "monthlyVol": 0.19150058621313204,
+        "annualizedVol": 0.6633774900007375,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-03",
+        "dailyStd": 0.02995248289423184,
+        "monthlyVol": 0.1372595201146874,
+        "annualizedVol": 0.4754809253223217,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-04",
+        "dailyStd": 0.03751325763085991,
+        "monthlyVol": 0.1719073426577953,
+        "annualizedVol": 0.5955045033549081,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-05",
+        "dailyStd": 0.02995817553979483,
+        "monthlyVol": 0.13728560709388435,
+        "annualizedVol": 0.475571293269092,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-06",
+        "dailyStd": 0.03291622277300824,
+        "monthlyVol": 0.1508410824493395,
+        "annualizedVol": 0.5225288373418842,
+        "tradingDays": 18
+      },
+      {
+        "month": "2024-07",
+        "dailyStd": 0.045528687694607405,
+        "monthlyVol": 0.2086386576525429,
+        "annualizedVol": 0.722745510954347,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-08",
+        "dailyStd": 0.039439573465604776,
+        "monthlyVol": 0.1807348307829057,
+        "annualizedVol": 0.6260838192267125,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-09",
+        "dailyStd": 0.028307450014662075,
+        "monthlyVol": 0.12972103242336774,
+        "annualizedVol": 0.44936683793512533,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-10",
+        "dailyStd": 0.02425407919923096,
+        "monthlyVol": 0.11114615384192979,
+        "annualizedVol": 0.38502157104017837,
+        "tradingDays": 22
+      },
+      {
+        "month": "2024-11",
+        "dailyStd": 0.024705074370403642,
+        "monthlyVol": 0.11321287335188818,
+        "annualizedVol": 0.39218089743266193,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-12",
+        "dailyStd": 0.021322506082539536,
+        "monthlyVol": 0.09771199812939374,
+        "annualizedVol": 0.33848429053837015,
+        "tradingDays": 19
+      }
+    ]
+  },
+  "tsla": {
+    "symbol": "TSLA",
+    "fullYear": {
+      "dailyStd": 0.039464751798860435,
+      "monthlyVol": 0.18085021240092258,
+      "annualizedVol": 0.626483512876042,
+      "tradingDays": 250
+    },
+    "byMonth": [
+      {
+        "month": "2024-01",
+        "dailyStd": 0.03292744262720283,
+        "monthlyVol": 0.15089249828047258,
+        "annualizedVol": 0.5227069470055559,
+        "tradingDays": 20
+      },
+      {
+        "month": "2024-02",
+        "dailyStd": 0.02529974958761221,
+        "monthlyVol": 0.11593801754866075,
+        "annualizedVol": 0.40162107384618506,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-03",
+        "dailyStd": 0.03142633260966419,
+        "monthlyVol": 0.14401354799864524,
+        "annualizedVol": 0.49887756422382556,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-04",
+        "dailyStd": 0.052386681349531374,
+        "monthlyVol": 0.24006593269175885,
+        "annualizedVol": 0.8316127851770735,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-05",
+        "dailyStd": 0.025782521492807176,
+        "monthlyVol": 0.11815035634761473,
+        "annualizedVol": 0.4092848402528734,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-06",
+        "dailyStd": 0.023568044538223774,
+        "monthlyVol": 0.108002348078501,
+        "annualizedVol": 0.3741311084174053,
+        "tradingDays": 18
+      },
+      {
+        "month": "2024-07",
+        "dailyStd": 0.05184709342620795,
+        "monthlyVol": 0.23759323018904524,
+        "annualizedVol": 0.823047092443668,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-08",
+        "dailyStd": 0.034914772175837716,
+        "monthlyVol": 0.15999958636791434,
+        "annualizedVol": 0.5542548255584647,
+        "tradingDays": 21
+      },
+      {
+        "month": "2024-09",
+        "dailyStd": 0.03448103889217653,
+        "monthlyVol": 0.15801197076411522,
+        "annualizedVol": 0.5473695231350713,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-10",
+        "dailyStd": 0.05207398000053546,
+        "monthlyVol": 0.2386329550900703,
+        "annualizedVol": 0.8266488051526079,
+        "tradingDays": 22
+      },
+      {
+        "month": "2024-11",
+        "dailyStd": 0.050682999108772074,
+        "monthlyVol": 0.2322586798633274,
+        "annualizedVol": 0.8045676680443152,
+        "tradingDays": 19
+      },
+      {
+        "month": "2024-12",
+        "dailyStd": 0.04241722560340201,
+        "monthlyVol": 0.19438014709760862,
+        "annualizedVol": 0.6733525815115404,
+        "tradingDays": 19
+      }
+    ]
+  }
+}
