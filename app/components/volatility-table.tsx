@@ -66,20 +66,37 @@ export default function VolatilityTable({ data }: VolatilityTableProps) {
         <CardDescription>
           Monthly and annualized volatility for NVDA and TSLA in 2024.
           Calculated from daily log returns:{" "}
-          <code className="rounded bg-muted px-1 py-0.5 text-xs">r = ln(Pt / Pt-1)</code>.
+          <code className="rounded bg-muted px-1 py-0.5 text-xs text-foreground">
+            r = ln(Pt / Pt-1)
+          </code>
+          .
         </CardDescription>
       </CardHeader>
       <CardContent>
         <div className="overflow-x-auto">
           <Table>
-            <TableHeader>
+            {/* Column titles sit on a lighter band in bold white so they read
+                clearly against the dark card. */}
+            <TableHeader className="bg-muted [&_tr]:border-b-2 [&_tr]:border-border [&_tr]:hover:bg-muted">
               <TableRow>
-                <TableHead>Period</TableHead>
-                <TableHead className="text-right">NVDA Monthly</TableHead>
-                <TableHead className="text-right">NVDA Annualized</TableHead>
-                <TableHead className="text-right">TSLA Monthly</TableHead>
-                <TableHead className="text-right">TSLA Annualized</TableHead>
-                <TableHead className="text-right">Trading Days</TableHead>
+                <TableHead className="font-semibold text-foreground">
+                  Period
+                </TableHead>
+                <TableHead className="text-right font-semibold text-foreground">
+                  NVDA Monthly
+                </TableHead>
+                <TableHead className="text-right font-semibold text-foreground">
+                  NVDA Annualized
+                </TableHead>
+                <TableHead className="text-right font-semibold text-foreground">
+                  TSLA Monthly
+                </TableHead>
+                <TableHead className="text-right font-semibold text-foreground">
+                  TSLA Annualized
+                </TableHead>
+                <TableHead className="text-right font-semibold text-foreground">
+                  Trading Days
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -110,7 +127,7 @@ export default function VolatilityTable({ data }: VolatilityTableProps) {
                   </TableRow>
                 );
               })}
-              <TableRow className="border-t-2 font-semibold">
+              <TableRow className="border-t-2 border-border bg-muted/60 font-semibold text-foreground hover:bg-muted/60">
                 <TableCell>Full Year 2024</TableCell>
                 <TableCell className="text-right">
                   {formatPercent(data.nvda.fullYear.monthlyVol)}
