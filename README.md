@@ -3,7 +3,7 @@
 From the repository directory, install dependencies and start the development server:
 
 ```bash
-npm i
+npm install
 npm run dev
 ```
 
